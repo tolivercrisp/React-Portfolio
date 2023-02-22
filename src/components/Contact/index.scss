@@ -58,12 +58,12 @@
     }
   
     .flat-button {
-      color: #ff4500;
+      color: #FFE902;
       font-size: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #ff4500;
+      border: 1px solid #FFE902;
       float: left;
       border-radius: 4px;
       background: 0 0;
@@ -74,7 +74,7 @@
   
       &:hover {
         cursor: pointer;
-        background-color: #ff4500;
+        background-color: #FFE902;
         color: #000;
       }
     }
