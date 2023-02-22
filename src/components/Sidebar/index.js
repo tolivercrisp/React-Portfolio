@@ -1,7 +1,4 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
-import codechefLogo from '../../assets/images/codechef.png'
-import LogoSubtitle from '../../assets/images/Sudip_logo_white.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -16,10 +13,6 @@ const Sidebar = () => {
   return (
     <>
       <div className="nav-bar">
-        <Link className="logo" to="/">
-          <img src={LogoS} alt="Logo" />
-          <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
-        </Link>
         <nav>
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -61,15 +54,6 @@ const Sidebar = () => {
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} color="#b9b9b9" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.codechef.com/users/metal_oopa"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={codechefLogo} width="24" alt="Codechef" />
             </a>
           </li>
         </ul>
