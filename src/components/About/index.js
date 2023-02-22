@@ -1,13 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
-  faPython,
   faNode,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'

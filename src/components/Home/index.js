@@ -47,7 +47,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            Full Stack Web Developer / Other thing / Other stuff 
+            Full Stack Web Developer / Hobbyist Gamer / Human
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
