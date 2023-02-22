@@ -7,9 +7,9 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'udip'.split('')
-  const jobArray = 'Blockchain Developer'.split('')
-  const interestArray = 'Ethical Hacker'.split('')
+  const nameArray = ' Toliver!'.split('')
+  const jobArray = 'Full Stack Dev'.split('')
+  const interestArray = '& Writer '.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -47,7 +47,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            Full Stack Blockchain Developer / Ethical Hacker / AI/ML Developer
+            Full Stack Web Developer / Other thing / Other stuff 
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

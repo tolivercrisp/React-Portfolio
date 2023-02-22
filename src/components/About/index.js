@@ -8,6 +8,7 @@ import {
   faJsSquare,
   faReact,
   faPython,
+  faNode,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -38,28 +39,20 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a Computer Science Undergrad student at Indian Institute of
-            Information Technology and Management, Gwalior.
+            I'm a recent graduate of UT Austin's Full Stack Coding bootcamp.
+            Before my journey into Software Development,
+            I graduated from the College of Charleston as an English Major with a 
+            concentration in Creative Writing.
           </p>
           <p>
-            I'm a very ambitious Full stack developer. I love Automating tasks.
-            Also experienced with Natural Language Processing, Computer Vision.
-          </p>
-          <p>
-            I'm also a competitive coder. Python is my favorite language but
-            when it comes to competitive coding, I prefer to use C++.
-          </p>
-          <p>In love with Open Source.</p>
-          <p>
-            If I need to define myself in one sentence that would be an Anime
-            Lover, and tech-obsessed!!!
+            Outside of coding, I'm an avid runner, gamer, and hobbist guitar player.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+              <FontAwesomeIcon icon={faNode} color="#4B8BBE" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
