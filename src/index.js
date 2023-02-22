@@ -5,10 +5,9 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
-// TODO:  Add mouse-trail, work page
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Portfolio'>
       <App />
     </BrowserRouter>
     ,
