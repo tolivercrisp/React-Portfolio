@@ -29,13 +29,12 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I love to keep a variety of tools in my tech stack. I also make sure
-            to be pro at using one tool before moving on to the next. I keep
-            myself up to date with the latest technologies around.
+            I'm proud of the diverse technologies I've added to my development toolbox!
           </p>
           <p>
-            Looking for a role in a company with the opportunity to work with
-            the latest technologies on challenging and diverse projects.
+            Although I'm graduating from my full stack bootcamp soon, I'll remain a lifetime learner
+            and student because I've found constant, habitual learning to be the key to a fruitful
+            and rewarding software career.
           </p>
         </div>
 
