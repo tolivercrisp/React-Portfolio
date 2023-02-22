@@ -54,7 +54,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
       <Loader type="pacman" />
     </>
   )
