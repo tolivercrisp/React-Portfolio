@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import TagCloud from 'TagCloud'
+import React, { useEffect, useState } from 'react';
+import TagCloud from 'TagCloud';
 
 const WordCloud = () => {
-  const [isLoading, setLoad] = useState(true)
+  const [isLoading, setLoad] = useState(true);
 
-  const container = '.content'
-  
+  const container = '.content';
+
   const texts = [
     'Javascript',
     'MERN',
@@ -19,7 +19,8 @@ const WordCloud = () => {
     'jQuery',
     'CSS',
     'HTML'
-  ]
+  ];
+
   const options = {
     radius: 300,
     // animation speed

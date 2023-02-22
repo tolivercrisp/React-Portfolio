@@ -5,6 +5,8 @@ import './index.scss'
 import WordCloud from './wordcloud'
 
 const Skills = () => {
+
+  
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const skillsArray = 'Skills'.split('')
