@@ -95,6 +95,12 @@
           content: 'SKILLS';
         }
       }
+
+      a.work-link {
+        &:after {
+          content: 'WORK';
+        }
+      }
   
       a.active {
         svg {
