@@ -19,9 +19,9 @@ const Work = () => {
     <>
     <div className="container work-page">
       <div className="text-zone">
-      <Loader type="pacman" />
       </div>
     </div>
+    <Loader type="pacman" />
     </>
   )
 }
