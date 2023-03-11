@@ -3,10 +3,9 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import WordCloud from './wordcloud'
+import Resume from '../../assets/Resume.pdf';
 
 const Skills = () => {
-
-  
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const skillsArray = 'Skills'.split('')
@@ -38,8 +37,8 @@ const Skills = () => {
             and student because I've found constant, habitual learning to be the key to a fruitful
             and rewarding software career.
           </p>
+          <a id='resume' href={Resume} target="_blank" rel='noreferrer'>Download Pdf</a>
         </div>
-
         <div className="tagcloud-wrap">
           <WordCloud />
         </div>
