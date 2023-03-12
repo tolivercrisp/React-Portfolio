@@ -42,7 +42,7 @@ const Work = () => {
           />
           <br />
         </h1>
-      <ImageList sx={{ width: 1000, height: 900 }}>
+      <ImageList sx={{ width: 700, height: 450 }}>
       {itemData.map((item) => (
         <Link to={item.link}>
           <ImageListItem key={item.img}>
